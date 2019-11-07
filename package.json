@@ -1,0 +1,26 @@
+{
+  "name": "reason-instagram-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyhou/reason-instagram-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyhou/reason-instagram-clone/issues"
+  },
+  "homepage": "https://github.com/zyhou/reason-instagram-clone#readme",
+  "dependencies": {
+    "next": "9.1.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  }
+}
