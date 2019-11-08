@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/main.css";
 
-const Hello = require("./hello.bs").make;
+const Listing = require("./Listing.bs").make;
 
-const Home = () => <Hello />;
+const Home = () => <Listing />;
 
 export default Home;
