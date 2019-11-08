@@ -3,7 +3,9 @@
 import * as React from "react";
 
 function Hello(Props) {
-  return React.createElement("div", undefined, "Hello World");
+  return React.createElement("div", {
+              className: "text-center"
+            }, "Hello World");
 }
 
 var make = Hello;
