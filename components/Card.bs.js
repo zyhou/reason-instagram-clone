@@ -14,7 +14,7 @@ function Card(Props) {
                   className: "bg-white mt-3"
                 }, React.createElement("img", {
                       className: "border rounded-t-lg shadow-lg ",
-                      src: card[/* caption */1]
+                      src: card[/* caption */2]
                     }), React.createElement("div", {
                       className: "bg-white p-1 border shadow flex flex-row flex-wrap"
                     }, React.createElement("div", {

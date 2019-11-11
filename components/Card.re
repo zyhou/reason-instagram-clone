@@ -4,6 +4,7 @@ type user = {
 };
 
 type card = {
+  id: string,
   user,
   caption: string,
   created_at: string,
@@ -15,10 +16,7 @@ let str = React.string;
 let make = (~card: card) => {
   <div className="mt-3 flex flex-col">
     <div className="bg-white mt-3">
-      <img
-        className="border rounded-t-lg shadow-lg "
-        src={card.caption}
-      />
+      <img className="border rounded-t-lg shadow-lg " src={card.caption} />
       <div className="bg-white p-1 border shadow flex flex-row flex-wrap">
         <div
           className="w-1/3 hover:bg-gray-200 text-center text-xl text-gray-700 font-semibold">
